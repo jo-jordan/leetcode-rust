@@ -11,9 +11,11 @@ trait Solution {
 
 fn main() {
     let solution9: num9::Solution9 = Solution::new();
+    let solution13: num13::Solution13 = Solution::new();
 
     solution9.print_info();
     solution9.solve();
 
-
+    solution13.print_info();
+    solution13.solve();
 }

@@ -1,15 +1,16 @@
 use crate::Solution;
 
+#[derive(Debug)]
 pub(crate) struct Solution9 { name: &'static str, difficult: u8 }
 
 impl Solution for Solution9 {
 
     fn new() -> Solution9 {
-        return Solution9 { name: "Solution9", difficult: 1 }
+        return Solution9 { name: "Palindrome Number", difficult: 1 }
     }
 
     fn print_info(&self) {
-        println!("Solution name: {}, difficult: {}", self.name, self.difficult);
+        println!("Solution: {:?}", self);
     }
 
     fn solve(&self) {
